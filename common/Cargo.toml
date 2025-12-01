@@ -1,0 +1,11 @@
+[package]
+name = "aoc2024-common"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+name = "aoc2024_common"
+crate-type = ["rlib"]
+
+[dependencies]
+reqwest = { workspace = true }
